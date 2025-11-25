@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeCare Hospital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="hospital_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-dark text-light">
+    <header class="text-center py-4 bg-danger text-white shadow">
+        <h1><i class="fa-solid fa-hospital"></i> LIFECARE HOSPITAL</h1>
+        <p class="lead">Your Health, Our Priority</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-light">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">LifeCare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#departments" class="nav-link">Departments</a></li>
+                    <li class="nav-item"><a href="#doctors" class="nav-link">Doctors</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="appointment.html" class="btn btn-outline-info ms-3">Book Appointment</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="hospitalCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hospitalCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#hospitalCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#hospitalCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#hospitalCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#hospitalCarousel" data-bs-slide-to="4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="carousel1-1.jpg" class="d-block w-100" height="500px" alt="Image not available">
+                <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
+                    <h3>Advanced Medical Care</h3>
+                    <p>We provide world-class healthcare with compassion and expertise.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="carousel2.jpg" class="d-block w-100" height="500px" alt="Image not available">
+                <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
+                    <h3>Emergency Support</h3>
+                    <p>24/7 emergency and trauma care with quick response and expert staff.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="carousel3.jpg" class="d-block w-100" height="500px" alt="nursing">
+                <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
+                    <h3>Compassionate Nursing</h3>
+                    <p>Our nursing team ensures personalized care and patient comfort.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="carousel4.jpg" class="d-block w-100" height="500px" alt="lab">
+                <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
+                    <h3>Modern Laboratories</h3>
+                    <p>Accurate diagnostics powered by the latest medical technology.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="carousel5.jpg" class="d-block w-100" height="500px" alt="surgery">
+                <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
+                    <h3>Expert Surgeons</h3>
+                    <p>Our specialists perform critical surgeries with precision and care.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hospitalCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hospitalCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <section id="about" class="container py-5">
+        <div class="text-center mb-4">
+            <h2 class="text-info">About Us</h2>
+            <p class="mb-5">We are dedicated to delivering quality healthcare with advanced facilities and compassionate care.</p>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col-md-4">
+                <i class="fa-solid fa-stethoscope fa-3x text-danger mb-3"></i>
+                <h5>Modern Equipment</h5>
+                <p>Equipped with state-of-the-art diagnostic and treatment technologies.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa-solid fa-user-nurse fa-3x text-danger mb-3"></i>
+                <h5>Qualified Doctors</h5>
+                <p>Our doctors are highly experienced and specialized in their fields.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa-solid fa-ambulance fa-3x text-danger mb-3"></i>
+                <h5>24x7 Emergency</h5>
+                <p>Round-the-clock emergency and ambulance services available.</p>
+            </div>
+        </div>
+        <div class="row text-center gy-4">
+            <div class="col-md-4">
+                <i class="fa-solid fa-heart-pulse fa-3x text-danger mb-3"></i>
+                <h5>Patient-Centered Care</h5>
+                <p>We prioritize every patient’s comfort, trust, and overall well-being.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa-solid fa-flask-vial fa-3x text-danger mb-3"></i>
+                <h5>Advanced Laboratory</h5>
+                <p>Accurate and rapid test results with modern lab equipment.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa-solid fa-hands-holding-child fa-3x text-danger mb-3"></i>
+                <h5>Friendly Staff</h5>
+                <p>Our team ensures warm support and guidance throughout your care.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="departments" class="bg-secondary bg-opacity-25 py-5">
+        <div class="container text-center">
+            <h2 class="text-info mb-4">Our Departments</h2>
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-heart-pulse fa-2x text-danger mb-2"></i>
+                        <h5>Cardiology</h5>
+                        <p class="small">Heart health and cardiovascular treatments.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-brain fa-2x text-danger mb-2"></i>
+                        <h5>Neurology</h5>
+                        <p class="small">Specialized care for brain and nervous system disorders.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-bone fa-2x text-danger mb-2"></i>
+                        <h5>Orthopedics</h5>
+                        <p class="small">Bone, joint, and spine treatments for better mobility.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-baby fa-2x text-danger mb-2"></i>
+                        <h5>Pediatrics</h5>
+                        <p class="small">Comprehensive care for infants, children, and adolescents.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-user-md fa-2x text-danger mb-2"></i>
+                        <h5>General Medicine</h5>
+                        <p class="small">Primary care and general health consultations.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-x-ray fa-2x text-danger mb-2"></i>
+                        <h5>Radiology</h5>
+                        <p class="small">Advanced imaging and diagnostic services.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-flask-vial fa-2x text-danger mb-2"></i>
+                        <h5>Pathology</h5>
+                        <p class="small">Comprehensive lab testing and clinical analysis.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-eye fa-2x text-danger mb-2"></i>
+                        <h5>Ophthalmology</h5>
+                        <p class="small">Eye care and vision correction treatments.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-tooth fa-2x text-danger mb-2"></i>
+                        <h5>Dental Care</h5>
+                        <p class="small">Oral health, cosmetic dentistry, and dental surgery.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-syringe fa-2x text-danger mb-2"></i>
+                        <h5>Vaccination</h5>
+                        <p class="small">Immunization and preventive healthcare for all ages.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-flask fa-2x text-danger mb-2"></i>
+                        <h5>Oncology</h5>
+                        <p class="small">Cancer diagnosis, chemotherapy, and rehabilitation.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-dark text-light p-3 border-info h-100">
+                        <i class="fa-solid fa-lungs fa-2x text-danger mb-2"></i>
+                        <h5>Pulmonology</h5>
+                        <p class="small">Lung and respiratory disease treatments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="doctors" class="container py-5 text-center">
+        <h2 class="text-info mb-4">Our Expert Doctors</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card bg-dark border-info p-3 text-light p-3">
+                    <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=80" class="img-fluid rounded" alt="doctor">
+                    <h5 class="mt-3">Dr. A. Mehra</h5>
+                    <p class="mb-3 pb-3">Cardiologist</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark border-info p-3 text-light">
+                    <img src="data:image/jpeg;base64,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" class="img-fluid rounded" alt="doctor">
+                    <h5 class="mt-3">Dr. R. Iyer</h5>
+                    <p>Neurologist</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark border-info p-3 text-light">
+                    <img src="data:image/jpeg;base64,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" class="img-fluid rounded" alt="doctor">
+                    <h5 class="mt-3">Dr. S. Patel</h5>
+                    <p class="mb-3 pb-3">Orthopedic Surgeon</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-secondary text-center py-4 mt-4">
+        <h5>Contact Us</h5>
+        <p><i class="fa-solid fa-phone"></i> +91 87095 51608 &nbsp; | &nbsp; <i class="fa-solid fa-envelope"></i> example@lifecarehospital.com</p>
+        <div class="social-icons mt-3">
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+        </div>
+        <p class="mt-3 mb-0">&copy; 2025 LifeCare Hospital. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

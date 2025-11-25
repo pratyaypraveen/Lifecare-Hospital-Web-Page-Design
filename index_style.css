@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card {
+  transition: 0.4s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+footer {
+  border-top: 1px solid #17a2b8;
+}
+
+.social-icons a:hover {
+  color: #17a2b8;
+}
