@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+form .form-control{
+    transition: 0.3s ease;
+}
+
+form .form-select{
+    transition: 0.3s ease;
+}
+
+form .form-control:focus{
+    box-shadow: 0 0 10px rgba(23, 162, 184, 0.7);
+    border-color: #17a2b8;
+}
+
+form .form-select:focus{
+    box-shadow: 0 0 10px rgba(23, 162, 184, 0.7);
+    border-color: #17a2b8;
+}
+
+.btn-info:hover{
+    background-color: #138496;
+}
+
+header{
+    border-bottom: 2px solid #17a2b8;
+}
+
+footer{
+    border-top: 2px solid #17a2b8;
+}
